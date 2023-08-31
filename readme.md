@@ -7,9 +7,9 @@ All the available models can be simultaneously trained and tested with model met
 The pipeline is implemented using Flask, Kafka, and the Transformers library.
 
 # Finetuning
-1.For finetuning one model just provide the path to dataset and model name
-    available model types - model_types = ["roberta", "textattack", "bert", "gpt2", "distilbert"]
-    python fine_tune_from_models.py --model_type roberta --dataset_path path/to/your/dataset.txt
+1.For finetuning one model just provide the path to dataset and model name /n
+    available model types - model_types = ["roberta", "textattack", "bert", "gpt2", "distilbert"] /n
+    python fine_tune_from_models.py --model_type roberta --dataset_path path/to/your/dataset.txt /n
 2.For finetuning all the models and observing their eval metrics to choose the best one use finetune_all.py
 
 # Data Flow
