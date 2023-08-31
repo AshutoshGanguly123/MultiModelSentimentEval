@@ -1,14 +1,14 @@
 # Real-Time Sentiment Analysis Service using Fine-tuned BERT and Kafka
 
 # Overview
-This project implements a data pipeline for real-time sentiment prediction using various pretrained-tuned BERT and GPT models. 
+This project implements a data pipeline for real-time sentiment prediction using various pretrained BERT and GPT models. 
 The models can be finetuned using the finetune.py on custom dataset
 All the available models can be simultaneously trained and tested with model metrics being populated using finetune_all.py
 The pipeline is implemented using Flask, Kafka, and the Transformers library.
 
 # Finetuning
 1.For finetuning one model just provide the path to dataset and model name
-# available model types - model_types = ["roberta", "textattack", "bert", "gpt2", "distilbert"]
+    available model types - model_types = ["roberta", "textattack", "bert", "gpt2", "distilbert"]
     python fine_tune_from_models.py --model_type roberta --dataset_path path/to/your/dataset.txt
 2.For finetuning all the models and observing their eval metrics to choose the best one use finetune_all.py
 
