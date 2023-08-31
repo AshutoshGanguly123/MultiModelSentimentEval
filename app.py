@@ -66,9 +66,7 @@ def send_message():
 if __name__ == '__main__':
     t1 = threading.Thread(target=app.run, kwargs={'host': '0.0.0.0', 'port': 5000})
     t2 = threading.Thread(target=consume_topic)
-
     t1.start()
     t2.start()
-
     t1.join()
     t2.join()
