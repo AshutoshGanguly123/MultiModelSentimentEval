@@ -1,0 +1,50 @@
+[2023-08-30T13:21:50.108+0530][gc,init] CardTable entry size: 512
+[2023-08-30T13:21:50.108+0530][gc     ] Using G1
+[2023-08-30T13:21:50.108+0530][gc,init] Version: 20.0.1+9-29 (release)
+[2023-08-30T13:21:50.109+0530][gc,init] CPUs: 8 total, 8 available
+[2023-08-30T13:21:50.109+0530][gc,init] Memory: 8192M
+[2023-08-30T13:21:50.109+0530][gc,init] Large Page Support: Disabled
+[2023-08-30T13:21:50.109+0530][gc,init] NUMA Support: Disabled
+[2023-08-30T13:21:50.109+0530][gc,init] Compressed Oops: Enabled (Zero based)
+[2023-08-30T13:21:50.109+0530][gc,init] Heap Region Size: 1M
+[2023-08-30T13:21:50.109+0530][gc,init] Heap Min Capacity: 512M
+[2023-08-30T13:21:50.109+0530][gc,init] Heap Initial Capacity: 512M
+[2023-08-30T13:21:50.109+0530][gc,init] Heap Max Capacity: 512M
+[2023-08-30T13:21:50.109+0530][gc,init] Pre-touch: Disabled
+[2023-08-30T13:21:50.109+0530][gc,init] Parallel Workers: 8
+[2023-08-30T13:21:50.109+0530][gc,init] Concurrent Workers: 2
+[2023-08-30T13:21:50.109+0530][gc,init] Concurrent Refinement Workers: 8
+[2023-08-30T13:21:50.109+0530][gc,init] Periodic GC: Disabled
+[2023-08-30T13:21:50.109+0530][gc,metaspace] CDS archive(s) mapped at: [0x0000000800000000-0x0000000800c6c000-0x0000000800c6c000), size 13025280, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+[2023-08-30T13:21:50.109+0530][gc,metaspace] Compressed class space mapped at: 0x0000000801000000-0x0000000841000000, reserved size: 1073741824
+[2023-08-30T13:21:50.109+0530][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2023-08-30T13:22:32.729+0530][gc,start    ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2023-08-30T13:22:32.729+0530][gc,task     ] GC(0) Using 8 workers of 8 for evacuation
+[2023-08-30T13:22:32.732+0530][gc,phases   ] GC(0)   Pre Evacuate Collection Set: 0.1ms
+[2023-08-30T13:22:32.732+0530][gc,phases   ] GC(0)   Merge Heap Roots: 0.1ms
+[2023-08-30T13:22:32.732+0530][gc,phases   ] GC(0)   Evacuate Collection Set: 2.3ms
+[2023-08-30T13:22:32.732+0530][gc,phases   ] GC(0)   Post Evacuate Collection Set: 0.3ms
+[2023-08-30T13:22:32.732+0530][gc,phases   ] GC(0)   Other: 0.2ms
+[2023-08-30T13:22:32.732+0530][gc,heap     ] GC(0) Eden regions: 25->0(21)
+[2023-08-30T13:22:32.732+0530][gc,heap     ] GC(0) Survivor regions: 0->4(4)
+[2023-08-30T13:22:32.732+0530][gc,heap     ] GC(0) Old regions: 0->4
+[2023-08-30T13:22:32.732+0530][gc,heap     ] GC(0) Archive regions: 2->2
+[2023-08-30T13:22:32.732+0530][gc,heap     ] GC(0) Humongous regions: 0->0
+[2023-08-30T13:22:32.732+0530][gc,metaspace] GC(0) Metaspace: 8183K(8448K)->8183K(8448K) NonClass: 7295K(7424K)->7295K(7424K) Class: 888K(1024K)->888K(1024K)
+[2023-08-30T13:22:32.732+0530][gc          ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 25M->8M(512M) 3.135ms
+[2023-08-30T13:22:32.732+0530][gc,cpu      ] GC(0) User=0.01s Sys=0.00s Real=0.01s
+[2023-08-30T18:54:00.951+0530][gc,start    ] GC(1) Pause Young (Normal) (G1 Evacuation Pause)
+[2023-08-30T18:54:00.953+0530][gc,task     ] GC(1) Using 8 workers of 8 for evacuation
+[2023-08-30T18:54:00.964+0530][gc,phases   ] GC(1)   Pre Evacuate Collection Set: 0.7ms
+[2023-08-30T18:54:00.964+0530][gc,phases   ] GC(1)   Merge Heap Roots: 0.2ms
+[2023-08-30T18:54:00.964+0530][gc,phases   ] GC(1)   Evacuate Collection Set: 9.9ms
+[2023-08-30T18:54:00.964+0530][gc,phases   ] GC(1)   Post Evacuate Collection Set: 0.6ms
+[2023-08-30T18:54:00.965+0530][gc,phases   ] GC(1)   Other: 0.3ms
+[2023-08-30T18:54:00.965+0530][gc,heap     ] GC(1) Eden regions: 21->0(24)
+[2023-08-30T18:54:00.965+0530][gc,heap     ] GC(1) Survivor regions: 4->1(4)
+[2023-08-30T18:54:00.965+0530][gc,heap     ] GC(1) Old regions: 4->8
+[2023-08-30T18:54:00.965+0530][gc,heap     ] GC(1) Archive regions: 2->2
+[2023-08-30T18:54:00.965+0530][gc,heap     ] GC(1) Humongous regions: 0->0
+[2023-08-30T18:54:00.965+0530][gc,metaspace] GC(1) Metaspace: 9191K(9472K)->9191K(9472K) NonClass: 8238K(8384K)->8238K(8384K) Class: 953K(1088K)->953K(1088K)
+[2023-08-30T18:54:00.965+0530][gc          ] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 29M->8M(512M) 13.336ms
+[2023-08-30T18:54:00.965+0530][gc,cpu      ] GC(1) User=0.02s Sys=0.02s Real=0.01s
