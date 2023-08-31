@@ -29,7 +29,7 @@ def stress_test_serial():
 
 def stress_test_parallel():
     with ThreadPoolExecutor() as executor:
-        executor.map(send_test_message, range(10))
+        executor.map(send_test_message, range(100))
 
 
 if __name__ == '__main__':
