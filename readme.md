@@ -2,7 +2,7 @@
 
 # Overview
 This project implements a data pipeline for real-time sentiment prediction using various pretrained BERT and GPT models. 
-The models can be finetuned using the finetune.py on custom dataset
+The models can be finetuned using the finetune.py on custom dataset.
 All the available models can be simultaneously trained and tested with model metrics being populated using finetune_all.py
 The pipeline is implemented using Flask, Kafka, and the Transformers library.
 
